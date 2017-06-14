@@ -1,0 +1,51 @@
+# Thank you for downloading my MoTD plugin. I just wan't to clarify some things: Don't use ' for words like don't, instead use 'do not' the ' symbol is strange.
+#
+# This is the prefix for the plugin. Don't add a space at the end of it.
+prefix: '&c&lMoTD &r&7>>'
+#
+# This is the message sent to a player when they log on the server. You can change this in-game using /motd set [message]
+message: '&eWelcome back to &lNugget Factions&r&e!'
+#
+# BC = Broadcast, set to true if you want the join / quit message to be broadcasted, set to false if you don't want the message to be broadcasted.
+# This is the prefix of the message broadcasted when a player joins the server.
+BCjoinprefix: '&c&lJOIN &r&7>> &e'
+# This is the message broadcasted to the server when a player joins the server. This goes after [prefix] [player] so type like: 'joined the server.'
+BCjoinmsg: 'joined the server.'
+# This is the prefix of the message broadcasted when a player quits the server.
+BCquitprefix: '&c&lQUIT &r&7>> &e'
+# This is the message broadcasted to the server when a player quits the server. This goes after [prefix] [player] so type like: 'left the server.'
+BCquitmsg: 'left the server.'
+#
+# YOU CAN USE '&' COLOUR CODES FOR THE MESSAGES! &1 = BLUE &2 = GREEN, ETC... CHECK https://wiki.ess3.net/mc/ FOR HELP ON COLOUR CODES
+# This is the message displayed when there is no MoTD set.
+nomotd: 'There is currently no MoTD set.'
+# This is the message displayed when a player doesn't have permission to use a command.
+noperm: 'You do not have permission to use this command.'
+# This is the message displayed when a player types the command incorrectly.
+invalidargs: 'Incorrect command usgae: /motd [help|set|clear|play|reset].'
+# This is the message displayed when a player doesn't type in a MoTD after typing /motd set
+nomotdprovided: 'Please enter a MoTD: /motd set [message]'
+# This is the message displayed to a player when they type /leave.
+logoutmsg: 'You have logged out of the server. Have a nice day :)'
+# This is the message displayed when you reload the config.
+configrel: 'MoTD configuration reloaded.'
+# This is the message displayed when the MoTD is cleared.
+motdclear: 'MoTD cleared.'
+# This is the message displayed when someone changes the MoTD. You cannot change the option for it being set to:
+motdsetto: 'MoTD set to:'
+# This is the message displayed when someone types /motd version. The actual version is the one below.
+motdversion: 'You are running MoTD version'
+#
+# This is the main help message displayed when you type /motd or /motd help. You can use '&' colour codes! https://wiki.ess3.net/mc/
+motdhelp1: '&e&m------&r&f&m[&e&m----&r&f[ &e&lMoTD &r&f]&e&m----&f&m]&r&e&m------'
+motdhelp2: '&e/motd help &r&7- Displays the help page. (The page you are seeing now).'
+motdhelp3: '&e/motd set <message> &r&7- Set's the message sent to players when they join the server.'
+motdhelp4: '&e/motd clear &r&7- Clears the message sent to players when they join the server.'
+motdhelp5: '&e/motd reload &r&7- Reloads the config.yml in-case you changed the message manually.'
+motdhelp6: '&e/motd play &r&7- Messages you the current MoTD saved to the config.yml.'
+motdhelp7: '&e/motd play &r&7- Displays the current version of MoTD.'
+motdhelp8: '&e&m------&r&f&m[&e&m----&r&f[ &e&lMoTD &r&f]&e&m----&f&m]&r&e&m------'
+#
+#
+# DO NOT CHANGE THE VERSION NUMBER!
+version: 2.5.6

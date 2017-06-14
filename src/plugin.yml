@@ -1,0 +1,13 @@
+name: MoTD
+version: 1.5.2
+main: kr.kieran.motd.Main
+author: [Kieraaaan]
+commands:
+    motd:
+        usage: /<command> [help|set|clear|play|reset]
+        description: Main MoTD command.
+
+    leave:
+        usgae: /<command> [confirm]
+        description: Leave the server with a command.
+        aliases: [leaveserver, serverleave, leaveserv, servleave]
