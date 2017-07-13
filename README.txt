@@ -1,3 +1,6 @@
+IMPORTANT!! THIS PROJECT HAS BEEN ABANDONED SINCE THE CODE IS SO TRASH. YOU CAN USE IT ALL YOU WANT.
+
+
 This is a plugin that I made called MoTD, what this plugin will do is when a player joins the game, they will be sent a message set by a staff member. This message can be set two ways: in-game using the command /motd set or in the config.yml file. & colour codes can be used to make the messages more colourful so it will look more professional. If you need help with colour codes, please refer to: https://wiki.ess3.net/mc/ - This webpage is essentials colour guide and will show you all you need to know about using colours in messages.
 
 This plugin has many features and the one thing that it doesn't have is a watermark, usually a plugin will have a watermark to tell players who developed the plugin. Since my plugin has no watermarks, you are able to use this plugin without players thinking you don't develop your own plugins. Every single message is fully customisable in the config.yml.
